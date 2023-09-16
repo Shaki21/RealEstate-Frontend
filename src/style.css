@@ -1,0 +1,57 @@
+/*
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-family: 'Inter' !important;
+   font-size: 62.5%;
+   scroll-behavior: smooth !important;
+}
+
+body {
+   font-family: 'Inter' !important;
+   font-weight: 400;
+   line-height: 1;
+   font-size: 1.6rem;
+   background: linear-gradient(
+      0deg,
+      rgba(240, 240, 240, 1) 0%,
+      rgba(254, 254, 254, 1) 100%
+   );
+}
+
+input,
+textarea {
+   font-family: 'Inter' !important;
+   font-weight: 500;
+}
+
+a {
+   text-decoration: none;
+   color: #000;
+}
+
+.swal2-modal {
+   border-radius: 0;
+}
+.swal2-confirm {
+   background-color: #084480 !important;
+   border-radius: 0 !important;
+}
+.swal2-confirm:active {
+   transform: translate(1px, 1px);
+}
