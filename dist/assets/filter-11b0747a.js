@@ -1,0 +1,1 @@
+function o(s){if(s===void 0)return"";const e=s.toString(),f=e.indexOf(".");let n=e;f!==-1&&(n=e.substring(0,f).trim());const i=[];let r=0;for(let t=n.length-1;t>=0;t--)i.unshift(n[t]),r++,r===3&&t!==0&&(i.unshift(" "),r=0);return i.join("")}export{o as s};
