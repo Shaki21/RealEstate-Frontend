@@ -1,0 +1,1 @@
+import{J as t}from"./index-b6e35920.js";const o=e=>t.post("/house",{...e}),u=e=>t.get("/houses?page="+e),r=e=>t.get("/houses",{params:e}),n=()=>t.get("/house-filtered"),c=e=>t.get("/house/"+e),g=(e,s)=>t.put("/house/"+e,{...s}),h=e=>t.delete("/house/"+e),a={createHouse:o,getHouses:u,getFilteredHouses:r,getAllHouses:n,getHouseId:c,updateHouse:g,deleteHouse:h};export{a as h};
