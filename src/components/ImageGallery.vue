@@ -2,19 +2,18 @@
    import { ref } from 'vue';
 
    const images = ref([
-      'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=100',
-      'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=100',
-      'https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=100',
-      'https://images.pexels.com/photos/1454805/pexels-photo-1454805.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      'https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://iznajmljivaci.laganini.com/img/object_photo/2703_1915/villa-antishova_2_1681458848.jpg',
+      'https://iznajmljivaci.laganini.com/img/object_photo/2703_1915/villa-antishova_9_1681458850.jpg',
+      'https://iznajmljivaci.laganini.com/img/object_photo/2703_1915/villa-antishova_5_1681458849.jpg',
+      'https://iznajmljivaci.laganini.com/img/object_photo/2703_1915/villa-antishova_4_1681458849.jpg',
+      'https://iznajmljivaci.laganini.com/img/object_photo/2703_1915/villa-antishova_19_1681458852.jpg',
+      'https://iznajmljivaci.laganini.com/img/object_photo/2703_1915/villa-antishova_17_1681458852.jpg',
+      'https://iznajmljivaci.laganini.com/img/object_photo/2703_1915/villa-antishova_6_1681458849.jpg',
+      'https://iznajmljivaci.laganini.com/img/object_photo/2703_1915/villa-antishova_8_1681458850.jpg',
+      'https://iznajmljivaci.laganini.com/img/object_photo/2703_1915/villa-antishova_15_1681458851.jpg',
+      'https://iznajmljivaci.laganini.com/img/object_photo/2703_1915/villa-antishova_11_1681458850.jpg',
+      'https://iznajmljivaci.laganini.com/img/object_photo/2703_1915/villa-antishova_12_1681458850.jpg',
+      'https://iznajmljivaci.laganini.com/img/object_photo/2703_1915/villa-antishova_18_1681458852.jpg'
    ]);
    const fourthImage = images.value[3];
    const currentIndex = ref(0);
